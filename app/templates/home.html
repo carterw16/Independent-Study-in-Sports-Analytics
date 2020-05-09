@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Choose your player</h1>
+    <form action="/" method="POST">
+        <p>
+		Player's first and last name: <br>
+		<input name = "playername" type = "text">
+        </p>
+        <p><input type = "SUBMIT"></p>
+		{% if message %}
+		{{message}}
+		{%endif%}
+    </form>
+    <h2>{{player}}  {{nat}}</h2>
+
+{% endblock %}
