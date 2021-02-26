@@ -1,9 +1,7 @@
 <html>
     <head>
       {% if title %}
-      <title>{{ title }} - Microblog</title>
-      {% else %}
-      <title>Welcome to Microblog</title>
+      <title>{{ title }} - HockeyStats</title>
       {% endif %}
     </head>
     <body>
@@ -11,4 +9,7 @@
         <hr>
         {% block content %}{% endblock %}
     </body>
+    <footer>
+      {% block footer %}{% endblock %}
+    </footer>
 </html>
