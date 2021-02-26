@@ -1,3 +1,3 @@
 # NHL Website
 
-<img src="hockeysite.png" width = "700" >
+<img src="images/hockeysite.png" width = "700" >
